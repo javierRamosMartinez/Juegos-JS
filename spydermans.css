@@ -1,0 +1,33 @@
+.b-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.b-grid img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    /* border: 3px solid #1C1921; */
+    border-radius: 10px;
+    /* background-color: #1C1921; */
+    object-fit: contain;
+}
+
+.contenedor {
+    display: flex;
+    /* Utilizamos flexbox para centrar el contenido */
+    justify-content: center;
+    /* Centramos horizontalmente */
+    /* align-items: center; */
+    /* Centramos verticalmente */
+    margin-left: 80px;
+    margin-top: 4%;
+    /* Establecemos la altura del contenedor al 100% del viewport */
+}
+
+body {
+    color: aliceblue;
+    text-align: center;
+    background-image: url("assets/pexels-nicole-avagliano-1132392-2312040.jpg");
+    height: 100vh;
+}
